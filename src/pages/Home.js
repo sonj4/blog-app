@@ -1,10 +1,14 @@
 
-const Home = () => {
-    const axios = require('axios');
-    axios.get('https://jsonblob.com/api/jsonBlob/978779242053779456').then(res => console.log("axios ",res.data))
+import Card from '../components/Card';
+import './Home.css'
+const Home = ({posts}) => {
+ console.log(posts)
+    
     return ( 
         <div className="home">
-            Home Page
+           {posts.map(post => {
+               return <Card title={post.title} author={post.author} body={post.body} img_url={post.image_url} id={post.id} key={post.id}/>
+           })}
         </div>
      );
 }

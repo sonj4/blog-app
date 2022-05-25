@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 0,
+      "title": "Title 1",
+      "author": "Sonja",
+      "image_url": "https://images.freeimages.com/images/large-previews/25c/abstract-flowers-2-1199959.jpg",
+      "body": "Check the ratings, whichever magazine or website you choose: Classical music and documentary films almost always get more stars and higher ratings than pop music and feature films."
+    },
+    {
+      "id": 1,
+      "title": "Title 2",
+      "author": "Danica",
+      "image_url": "https://images.freeimages.com/images/large-previews/25c/abstract-flowers-2-1199959.jpg",
+      "body": "Check the ratings, whichever magazine or website you choose: Classical music and documentary films almost always get more stars and higher ratings than pop music and feature films."
+    },
+    {
+      "title": "ngh",
+      "author": "ngf",
+      "image_url": "ngf",
+      "body": "ndf",
+      "id": 2
+    },
+    {
+      "title": "Umbrella",
+      "author": "Sonja",
+      "image_url": "https://images.freeimages.com/images/large-previews/a31/colorful-umbrella-1176220.jpg",
+      "body": "dsafhcrewg",
+      "id": 3
+    }
+  ]
+}
